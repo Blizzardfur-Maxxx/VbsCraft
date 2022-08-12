@@ -1,2 +1,2 @@
 # VbsCraft
-VbsCraft a Minecraft Launcher in VBS 
+VbsCraft a Minecraft Launcher in VBScript
