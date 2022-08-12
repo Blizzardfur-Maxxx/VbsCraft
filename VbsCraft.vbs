@@ -12,7 +12,7 @@ If intAnswer = vbYes Then
 	oFSO.CreateFolder "lib"
 	oFSO.CreateFolder "lib/native"
 	Set oStream = CreateObject("ADODB.Stream")
-	oXMLHTTP.Open "GET", "https://cdn.discordapp.com/attachments/941767122642669634/1007452371636465684/minecraft.jar", False
+	oXMLHTTP.Open "GET", "https://piston-data.mojang.com/v1/objects/3a799f179b6dcac5f3a46846d687ebbd95856984/client.jar", False
 	oXMLHTTP.Send
     oStream.Open
     oStream.Type = 1
@@ -20,7 +20,7 @@ If intAnswer = vbYes Then
     oStream.SaveToFile "./lib/minecraft.jar"
     oStream.Close
 	Set oStream = CreateObject("ADODB.Stream")
-	oXMLHTTP.Open "GET", "https://cdn.discordapp.com/attachments/854426771621150741/854449585166352405/jinput.jar", False
+	oXMLHTTP.Open "GET", "https://raw.githubusercontent.com/Blizzardfur-Maxxx/Assets-For-Projetcs/main/jinput.jar", False
 	oXMLHTTP.Send
     oStream.Open
     oStream.Type = 1
@@ -28,7 +28,7 @@ If intAnswer = vbYes Then
     oStream.SaveToFile "./lib/jinput.jar"
     oStream.Close
 	Set oStream = CreateObject("ADODB.Stream")
-	oXMLHTTP.Open "GET", "https://cdn.discordapp.com/attachments/854426771621150741/854449586194219009/jopt-simple-4.5.jar", False
+	oXMLHTTP.Open "GET", "https://raw.githubusercontent.com/Blizzardfur-Maxxx/Assets-For-Projetcs/main/jopt-simple-4.5.jar", False
 	oXMLHTTP.Send
     oStream.Open
     oStream.Type = 1
@@ -36,7 +36,7 @@ If intAnswer = vbYes Then
     oStream.SaveToFile "./lib/jopt-simple-4.5.jar"
     oStream.Close
 	Set oStream = CreateObject("ADODB.Stream")
-	oXMLHTTP.Open "GET", "https://cdn.discordapp.com/attachments/854426771621150741/854449589884157962/lwjgl_test.jar", False
+	oXMLHTTP.Open "GET", "https://raw.githubusercontent.com/Blizzardfur-Maxxx/Assets-For-Projetcs/main/lwjgl_test.jar", False
 	oXMLHTTP.Send
     oStream.Open
     oStream.Type = 1
@@ -44,7 +44,7 @@ If intAnswer = vbYes Then
     oStream.SaveToFile "./lib/lwjgl_test.jar"
     oStream.Close
 	Set oStream = CreateObject("ADODB.Stream")
-	oXMLHTTP.Open "GET", "https://cdn.discordapp.com/attachments/854426771621150741/854449593538183208/lwjgl_util.jar", False
+	oXMLHTTP.Open "GET", "https://raw.githubusercontent.com/Blizzardfur-Maxxx/Assets-For-Projetcs/main/lwjgl_util.jar", False
 	oXMLHTTP.Send
     oStream.Open
     oStream.Type = 1
@@ -52,7 +52,7 @@ If intAnswer = vbYes Then
     oStream.SaveToFile "./lib/lwjgl_util.jar"
     oStream.Close
 	Set oStream = CreateObject("ADODB.Stream")
-	oXMLHTTP.Open "GET", "https://cdn.discordapp.com/attachments/854426771621150741/854449594666844180/lwjgl_util_applet.jar", False
+	oXMLHTTP.Open "GET", "https://raw.githubusercontent.com/Blizzardfur-Maxxx/Assets-For-Projetcs/main/lwjgl_util_applet.jar", False
 	oXMLHTTP.Send
     oStream.Open
     oStream.Type = 1
@@ -60,7 +60,7 @@ If intAnswer = vbYes Then
     oStream.SaveToFile "./lib/lwjgl_util_applet.jar"
     oStream.Close
 	Set oStream = CreateObject("ADODB.Stream")
-	oXMLHTTP.Open "GET", "https://cdn.discordapp.com/attachments/854426771621150741/854449590702964796/lwjgl.jar", False
+	oXMLHTTP.Open "GET", "https://raw.githubusercontent.com/Blizzardfur-Maxxx/Assets-For-Projetcs/main/lwjgl.jar", False
 	oXMLHTTP.Send
     oStream.Open
     oStream.Type = 1
@@ -68,7 +68,7 @@ If intAnswer = vbYes Then
     oStream.SaveToFile "./lib/lwjgl.jar"
     oStream.Close
 	Set oStream = CreateObject("ADODB.Stream")
-	oXMLHTTP.Open "GET", "https://cdn.discordapp.com/attachments/854426771621150741/854449599226052608/lzma.jar", False
+	oXMLHTTP.Open "GET", "https://raw.githubusercontent.com/Blizzardfur-Maxxx/Assets-For-Projetcs/main/lzma.jar", False
 	oXMLHTTP.Send
     oStream.Open
     oStream.Type = 1
@@ -76,7 +76,7 @@ If intAnswer = vbYes Then
     oStream.SaveToFile "./lib/lzma.jar"
     oStream.Close
 	Set oStream = CreateObject("ADODB.Stream")
-	oXMLHTTP.Open "GET", "https://cdn.discordapp.com/attachments/854426771621150741/854449599379669042/lwjgl-debug.jar", False
+	oXMLHTTP.Open "GET", "https://raw.githubusercontent.com/Blizzardfur-Maxxx/Assets-For-Projetcs/main/lwjgl-debug.jar", False
 	oXMLHTTP.Send
     oStream.Open
     oStream.Type = 1
@@ -85,7 +85,7 @@ If intAnswer = vbYes Then
     oStream.Close
 	'download natives
 	Set oStream = CreateObject("ADODB.Stream")
-	oXMLHTTP.Open "GET", "https://cdn.discordapp.com/attachments/854426771621150741/854449775750938636/jinput-dx8.dll", False
+	oXMLHTTP.Open "GET", "https://raw.githubusercontent.com/Blizzardfur-Maxxx/Assets-For-Projetcs/main/jinput-dx8.dll", False
 	oXMLHTTP.Send
     oStream.Open
     oStream.Type = 1
@@ -93,7 +93,7 @@ If intAnswer = vbYes Then
     oStream.SaveToFile "./lib/native/jinput-dx8.dll"
     oStream.Close
 	Set oStream = CreateObject("ADODB.Stream")
-	oXMLHTTP.Open "GET", "https://cdn.discordapp.com/attachments/854426771621150741/854449777286053888/jinput-dx8_64.dll", False
+	oXMLHTTP.Open "GET", "https://raw.githubusercontent.com/Blizzardfur-Maxxx/Assets-For-Projetcs/main/jinput-dx8_64.dll", False
 	oXMLHTTP.Send
     oStream.Open
     oStream.Type = 1
@@ -101,7 +101,7 @@ If intAnswer = vbYes Then
     oStream.SaveToFile "./lib/native/jinput-dx8_64.dll"
     oStream.Close
 	Set oStream = CreateObject("ADODB.Stream")
-	oXMLHTTP.Open "GET", "https://cdn.discordapp.com/attachments/854426771621150741/854449777936433152/jinput-raw.dll", False
+	oXMLHTTP.Open "GET", "https://raw.githubusercontent.com/Blizzardfur-Maxxx/Assets-For-Projetcs/main/jinput-raw.dll", False
 	oXMLHTTP.Send
     oStream.Open
     oStream.Type = 1
@@ -109,7 +109,7 @@ If intAnswer = vbYes Then
     oStream.SaveToFile "./lib/native/jinput-raw.dll"
     oStream.Close
 	Set oStream = CreateObject("ADODB.Stream")
-	oXMLHTTP.Open "GET", "https://cdn.discordapp.com/attachments/854426771621150741/854449779257770014/jinput-raw_64.dll", False
+	oXMLHTTP.Open "GET", "https://raw.githubusercontent.com/Blizzardfur-Maxxx/Assets-For-Projetcs/main/jinput-raw_64.dll", False
 	oXMLHTTP.Send
     oStream.Open
     oStream.Type = 1
@@ -117,7 +117,7 @@ If intAnswer = vbYes Then
     oStream.SaveToFile "./lib/native/jinput-raw_64.dll"
     oStream.Close
 	Set oStream = CreateObject("ADODB.Stream")
-	oXMLHTTP.Open "GET", "https://cdn.discordapp.com/attachments/854426771621150741/854449780728791050/lwjgl.dll", False
+	oXMLHTTP.Open "GET", "https://raw.githubusercontent.com/Blizzardfur-Maxxx/Assets-For-Projetcs/main/lwjgl.dll", False
 	oXMLHTTP.Send
     oStream.Open
     oStream.Type = 1
@@ -125,7 +125,7 @@ If intAnswer = vbYes Then
     oStream.SaveToFile "./lib/native/lwjgl.dll"
     oStream.Close
 	Set oStream = CreateObject("ADODB.Stream")
-	oXMLHTTP.Open "GET", "https://cdn.discordapp.com/attachments/854426771621150741/854449782096134164/lwjgl64.dll", False
+	oXMLHTTP.Open "GET", "https://raw.githubusercontent.com/Blizzardfur-Maxxx/Assets-For-Projetcs/main/lwjgl64.dll", False
 	oXMLHTTP.Send
     oStream.Open
     oStream.Type = 1
@@ -133,7 +133,7 @@ If intAnswer = vbYes Then
     oStream.SaveToFile "./lib/native/lwjgl64.dll"
     oStream.Close
 	Set oStream = CreateObject("ADODB.Stream")
-	oXMLHTTP.Open "GET", "https://cdn.discordapp.com/attachments/854426771621150741/854449784114774016/OpenAL32.dll", False
+	oXMLHTTP.Open "GET", "https://raw.githubusercontent.com/Blizzardfur-Maxxx/Assets-For-Projetcs/main/OpenAL32.dll", False
 	oXMLHTTP.Send
     oStream.Open
     oStream.Type = 1
@@ -141,7 +141,7 @@ If intAnswer = vbYes Then
     oStream.SaveToFile "./lib/native/OpenAL32.dll"
     oStream.Close
 	Set oStream = CreateObject("ADODB.Stream")
-	oXMLHTTP.Open "GET", "https://cdn.discordapp.com/attachments/854426771621150741/854449786228441108/OpenAL64.dll", False
+	oXMLHTTP.Open "GET", "https://raw.githubusercontent.com/Blizzardfur-Maxxx/Assets-For-Projetcs/main/OpenAL64.dll", False
 	oXMLHTTP.Send
     oStream.Open
     oStream.Type = 1
